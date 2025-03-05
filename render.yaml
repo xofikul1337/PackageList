@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: php-hello-world
+    runtime: php
+    buildCommand: "" # No build command needed
+    startCommand: "php -S 0.0.0.0:10000" # Start PHP built-in server
+    env: php
